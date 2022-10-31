@@ -39,8 +39,8 @@ lateinit var boton:Button
         var repetido=0;
         while (contador<cantidadDeLetras ) {
 
-         //   posicion = (Math.random() * cantidadDeLetras).toInt()
-      posicion=contador
+           posicion = (Math.random() * cantidadDeLetras).toInt()
+     // posicion=contador
             posicionRepetidaNo[contador] = posicion
 
             while (repetido!=1) {
